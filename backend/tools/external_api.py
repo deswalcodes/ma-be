@@ -1,4 +1,4 @@
-from backend.models.schemas import db
+from models.schemas import db
 from bson import ObjectId
 from datetime import datetime
 
