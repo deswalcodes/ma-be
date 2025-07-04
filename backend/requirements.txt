@@ -1,5 +1,7 @@
 flask
 pymongo
 python-dotenv
-langgraph
-streamlit
+langchain
+langchain-openai
+deep-translator
+langdetect
