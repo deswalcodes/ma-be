@@ -1,8 +1,8 @@
 from langchain_openai import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from langchain.tools import Tool
-from backend.tools.mongodb_tool import MongoDBTool
-from backend.tools.external_api import ExternalAPI
+from tools.mongodb_tool import MongoDBTool
+from tools.external_api import ExternalAPI
 import os
 from langchain.memory import ConversationBufferMemory
 from dotenv import load_dotenv
